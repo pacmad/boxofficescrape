@@ -1,0 +1,40 @@
+{{> navbar }}
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <div class="box dropdown is-pulled-right">
+        <ul>
+          <li><a id="home" class="navbar-item" href="/">Home</a></li>
+          <li><a class="navbar-item" href="/saved">Saved Articles</a></li>
+          <li><a class="button is-primary navbar-item" href="/scrape">Get New Box Office Articles</a></li>
+        </ul>
+      </div>
+      <h1 id="hero-title" class="title">
+        Box Office Scrape
+      </h1>
+      <h2 class="subtitle">
+        Movie Box Office
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Box Office Article Results</h1>
+    <div id="scrape-results"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Box Office Scrape</strong> by <a href="https://github.com/Delaneyjp/boxofficescrape">Justin Delaney</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/assets/js/index.js"></script>
