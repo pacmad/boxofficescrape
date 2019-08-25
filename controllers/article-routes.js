@@ -1,5 +1,6 @@
 var express = require("express");
 var request = require("request");
+var axios = require("axios");
 var cheerio = require("cheerio");
 var Comment = require("../models/Comment.js");
 var Article = require("../models/Article.js");
@@ -8,12 +9,12 @@ var router = express.Router();
 
 // ============= ROUTES FOR HOME PAGE =============//
 
-// Scrape data from NPR website and save to mongodb
+// Scrape data from thr website and save to mongodb
 router.get("/scrape", function (req, res) {
   // Grab the body of the html with request
-  request("https://www.hollywoodreporter.com/topic/box-office-updates", function (error, response, html) {
+  axios.get("https://www.hollywoodreporter.com/topic/box-office-updates").then(function (response) {
     // Load that into cheerio and save it to $ for a shorthand selector
-    var $ = cheerio.load(html);
+    var $ = cheerio.load();
 
     // An empty array to save the data that we'll scrape
     var results = {};

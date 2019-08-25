@@ -1,0 +1,275 @@
+body
+{
+    background-color: black;
+	color: white;
+}
+a:link
+{
+   color: #66bd04;
+}
+a:visited
+{
+   color: #66bd04;
+}
+a:hover 
+{
+   color: white;
+   text-decoration: none;
+}
+.makeitgreen
+{
+	background-color: #a1ef34;
+	color: black;
+}
+
+.adsense_responsive { display:inline-block; width: 320px; height: 50px; }
+@media(max-width: 400px) { .adsense_responsive { display: none; } }
+@media(min-width: 500px) { .adsense_responsive { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .adsense_responsive { width: 728px; height: 90px; } }
+
+
+
+#blacktext {
+	color: black;
+}
+
+.dropdown-menu-green {
+
+  background-color: #a1ef34;
+}
+
+.open > .dropdown-toggle-green.btn-default:focus, .open > .dropdown-toggle-green.btn-default:hover {
+    color: #333;
+    background-color: #a1ef34;
+    border-color: #8C8C8C;
+}
+
+
+.navbargreen
+{
+	background-color: #a1ef34;
+	color: black;
+	border-color: #080808;
+}
+
+.navbargreen .navbar-nav > .open > a,
+.navbargreen .navbar-nav > .open > a:hover,
+.navbargreen .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #a1ef34;
+}
+
+.navbargreen .navbar-nav > li > a:hover,
+.navbargreen .navbar-nav > li > a:focus {
+  color: gray;
+  background-color: #a1ef34;
+}
+.navbargreen .navbar-nav > li > a {
+  color: black;
+}
+
+#altdesigns img {
+	vertical-align: middle;
+	horizontal-align: middle;
+	border: 1px solid #bcbcbc;
+}
+
+.banner_3 {
+	float: right;
+	width: 728px;
+	height: 90px;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	background: black;
+	text-align: center;
+	
+}
+
+.refinerybanner {
+	width: 728px;
+	height: 90px;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	background: black;
+	text-align: center;
+}
+.refinerybannermedium {
+	width: 485px;
+	height: 60px;
+	margin: 3px 0px 0px 0px;
+	padding: 0px;
+	background: black;
+	text-align: center;
+}
+	
+.refinerybannersmall {
+	width: 364px;
+	height: 45px;
+	margin: 2px 0px 0px 0px;
+	padding: 0px;
+	background: black;
+	text-align: center;
+}
+	
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Customize thumbnails and captions for alphabetical page */
+
+.constant_thumb {
+	width: 150px;
+	height: 270px;
+    border: 0px solid gray;
+	padding: 5px;
+    overflow-y: hidden;
+	background: gray;
+    text-align: center;
+}
+.constant_thumb a > img {
+    max-height: 220px;
+}
+
+/* thumbs for the recent additions page with no text */
+.minimal_thumb {
+	width: 80px;
+	height: 110px;
+    border: 0px solid gray;
+	padding: 5px;
+    overflow-y: hidden;
+	background: gray;
+    text-align: center;
+}
+.minimal_thumb a > img {
+    max-height: 100px;
+}
+
+
+.thumbnail {
+    border: 0px solid #ddd;
+}
+.thumbnail .caption {
+    color: white;
+	max-height: 60px;
+    overflow-y: hidden;
+	}
+.thumbnail_lg a > img {
+    max-width: 100px;
+}
+.thumbnail_lg {
+  height: 200px;
+  overflow-y: hidden;
+}
+
+/* Customize the pagination for alphabetical pages */
+.pagination > li > a,
+.pagination > li > span {
+  padding: 6px 7px;
+  color: black;
+}
+
+/* Code for the front page */
+
+.title {
+	float: left;
+	width: 100%;
+	min-height: 10px;
+	margin: 5px 0px 0px 0px;
+    background: url(/common/bg_header_green.jpg) repeat-x;
+	text-align: center;	
+}
+
+.dot {
+	float: left;
+	width: 100%;
+	height: 2px;
+	margin: 10px 10px 5px 0px;
+	/*border-top: 1px dotted #66bd04;
+	border-bottom: 1px dotted #66bd04;*/
+	background: url(/common/dot.gif) repeat-x;
+	clear: both;
+}
+
+.btn-tab {
+	color: #222222;
+background-color: #65be01;
+border-color: #CCC;
+}
+
+
+
+a.btn-tab:visited,
+a.btn-tab:link,
+a.btn-tab:active{
+    color:black;
+}
+
+a.btn-nextprev:visited,
+a.btn-nextprev:link,
+a.btn-nextprev:active{
+    color:black;
+}
+
+a.btn-tab:hover {
+	color: black;
+	background-color: #a1ef34
+}
+
+.btn-tab:hover {
+    color: #333;
+    background-color: #a1ef34;
+    border-color: #ADADAD;
+}
+
+.logo_button {
+    background-image: url("/bootstrap/img/mini_logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	width: 67px;
+	height: 34px; 
+	display: inline-block;
+}
+.logo_button a > img {
+    border: 0px;
+}
+
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 9px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.tmargin10 {
+	margin-top: 20px;
+}
+
+.date {
+	/*float: left;*/
+	width: 100%;
+	height: 20px;
+	padding: 0px;
+	/*border-top: 1px solid #232323;*/
+	font-size: 11px;
+	font-style: italic;
+	color: #509204;
+	text-align: left;
+}
+
+.rightsidesmallbordered
+{
+	font-size: 13px;
+	border-bottom: 1px solid #000;
+	padding: 4px 8px 4px 8px;
+}
+
+.fb-comments, .fb-comments iframe[style] {width: 100% !important;}

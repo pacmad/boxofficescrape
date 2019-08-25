@@ -36,21 +36,21 @@ app.use("/", articleRouter);
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-var URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/news-scraper'; 
+var URI = process.env.MONGODB_URI || 'mongodb://localhost:3000/boxofficescrape';
 mongoose.connect(URI);
 var db = mongoose.connection;
 
 // Show any mongoose errors
-db.on("error", function(error) {
+db.on("error", function (error) {
   console.log("Mongoose Error: ", error);
 });
 
 // Once logged in to the db through mongoose, log a success message
-db.once("open", function() {
+db.once("open", function () {
   console.log("Mongoose connection successful.");
 });
 
 // Listen on port 3000
-app.listen(port, function() {
+app.listen(port, function () {
   console.log("App running on port 3000!");
 });
